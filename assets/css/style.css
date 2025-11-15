@@ -1,0 +1,106 @@
+@import url('./fonts.css');
+@import url('.default.css');
+
+body {
+  background-color: #162831;
+  color: white;
+  font-family: 'ElMessiri';
+  font-weight: 500;
+}
+.wrapper {
+  width: 1296px;
+  margin: 0 auto;
+}
+section {
+  margin-bottom: 150px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0 50px;
+}
+.btn, a {
+  color: white;
+}
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+h1 {
+  font-size: 64px;
+}
+h2{
+  font-size: 42px;
+}
+h3{
+  font-size: 24px;
+}
+h4{
+  font-size: 21px;
+}
+header .logo, .to-sign {
+  width: 15%;
+}
+.to-sign {
+  display: flex;
+  justify-content: flex-end;
+}
+header .btn {
+  padding: 9px 15px;
+  background-color: #018ABE;
+}
+.menu {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+.menu a {
+  font-size: 14px;
+  transition: 0.45s;
+}
+.menu a:hover {
+  color: #018ABE;
+}
+.main {
+    height: 600px;
+    background-image: url('../img/main-section.png');
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banner-subtitle{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 33%;
+  margin-bottom: 40px;
+}
+.main h1 {
+  width: 33%;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.title h2 { 
+  margin:0 45px ;
+}
+.service-card {
+  width: 32%;
+  height: 540px;
+}
+.service-card-cover {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba(1,138,190,0.5), rgba(1,138,190,0.5)), url('../img/card.jpg') 100% 100% center no-repeat;
+}
